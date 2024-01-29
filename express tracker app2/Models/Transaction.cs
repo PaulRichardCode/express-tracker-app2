@@ -15,7 +15,5 @@ namespace express_tracker_app2.Models
         [Column(TypeName = "nvarchar(75)")]
         public string? Note { get; set; }
         public DateTime Date { get; set; } = DateTime.Now;
-
-
     }
 }
